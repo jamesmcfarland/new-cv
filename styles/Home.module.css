@@ -1,85 +1,15 @@
-.container {
-  display: grid;
-  height: 100vh;
-}
-
-.content {
-  margin: auto;
-  text-transform: uppercase;
-  letter-spacing: 1rem;
-  text-align: center;
-}
-
-.content h1 {
-  font-weight: normal;
-}
-.content h5 {
-  font-weight: normal;
-  letter-spacing: 0.1rem;
-}
-.content h4 {
-  font-weight: normal;
-  letter-spacing: 0.1rem;
-  font-size: smaller;
-}
-
-.socials {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  column-gap: 2rem;
-}
-
-.socials a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  font-size: smaller;
-  letter-spacing: 0.1rem;
-}
-.socials a :hover {
-  text-decoration: none;
-  color: lightgrey;
-}
-
-.qub {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  font-size: smaller;
-}
-
-.qub :hover {
-  animation: qubHover 0.5s forwards;
-}
-
-.more {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  /* font-size: smaller; */
-  position: absolute;
-  bottom: 0;
-
-  width: 100%;
-  margin: auto auto;
-  margin-bottom: 2rem;
-}
-
-
-.more :hover {
-  color: aquamarine
-}
-
-.wow {
-  height: 100vh;
+.aboutContainer {
   background-color: white;
+  color: #151515;
+  box-sizing: border-box;
+  /* height: 100vh; */
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 
-@keyframes qubHover {
-  from {
-    color: white;
-  }
-  to {
-    color: red;
-  }
+.infoContainer {
+  text-transform: uppercase;
+  margin-bottom: 10em;
+  margin-left: 1em;
 }
+

@@ -1,12 +1,12 @@
 html {
-  height: 100vh;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 body {
   padding: 0;
   margin: 0;
   font-family: Poppins, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
     Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #070707;
+  background-color: white;
   color: white;
 }

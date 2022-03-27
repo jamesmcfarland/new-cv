@@ -1,0 +1,24 @@
+.skill {
+  padding-left: 1em !important;
+  margin: 0.5em 0;
+}
+
+.skill header {
+  font-size: xx-large !important;
+  font-weight: bold !important;
+}
+.skill article {
+  max-width: 60%;
+  font-size: medium !important;
+  text-transform: none;
+  font-weight: normal !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .skill article {
+    max-width: 80%;
+  }
+  .skill {
+    padding-left: 0.5em !important;
+  }
+}

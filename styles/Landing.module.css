@@ -1,0 +1,108 @@
+.metal {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+
+  background: linear-gradient(236deg, #0d324d, #7f5a83);
+  background-size: 400% 400%;
+
+  -webkit-animation: fancy-background 42s ease infinite;
+  -moz-animation: fancy-background 42s ease infinite;
+  animation: fancy-background 42s ease infinite;
+}
+
+.landingContent {
+  text-align: center;
+  /* font-weight: normal; */
+  text-transform: uppercase;
+}
+
+.landingContent h1 {
+  letter-spacing: 1rem;
+  font-size: 3rem;
+}
+
+.qub {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: smaller;
+}
+
+.qub :hover {
+  animation: qubHover 0.5s forwards;
+}
+@keyframes qubHover {
+    from {
+      color: white;
+    }
+    to {
+      color: red;
+    }
+  }
+  
+  @-webkit-keyframes fancy-background {
+    0% {
+      background-position: 0% 46%;
+    }
+    50% {
+      background-position: 100% 55%;
+    }
+    100% {
+      background-position: 0% 46%;
+    }
+  }
+  @-moz-keyframes fancy-background {
+    0% {
+      background-position: 0% 46%;
+    }
+    50% {
+      background-position: 100% 55%;
+    }
+    100% {
+      background-position: 0% 46%;
+    }
+  }
+  @keyframes fancy-background {
+    0% {
+      background-position: 0% 46%;
+    }
+    50% {
+      background-position: 100% 55%;
+    }
+    100% {
+      background-position: 0% 46%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .landingContent h1 {
+      font-size: large;
+    }
+    .metal {
+      -webkit-animation: fancy-background 20s ease infinite;
+      -moz-animation: fancy-background 20s ease infinite;
+      animation: fancy-background 20s ease infinite;
+    }
+  
+    .infoContainer h2 {
+      font-size: large;
+    }
+  
+    .infoContainer ul li {
+      font-weight: bold;
+      font-size: x-large;
+      padding-left: 1em;
+      margin-top: 0.5rem;
+    }
+    .techSkill article {
+      max-width: 80%;
+    }
+    .techSkill {
+      padding-left: 0.5em !important;
+    }
+  }
+  
