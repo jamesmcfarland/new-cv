@@ -44,10 +44,14 @@
     font-size: large;
   }
 
+  .passion {
+    margin-bottom: 5em;
+  }
+
   .passion ul li {
     font-weight: bold;
     font-size: x-large;
-    padding-left: 1em;
+    padding-left: 0.5rem;
     margin-top: 0.5rem;
   }
 }

@@ -18,6 +18,7 @@ const Landing = () => {
             </a>
           </div>
         </div>
+        <a className={styles.learnmore} href="#more">learn more</a>
       </div> );
 }
  

@@ -35,74 +35,102 @@
 .qub :hover {
   animation: qubHover 0.5s forwards;
 }
+
+.learnmore {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2em;
+  color: #7f5a83;
+  background-color: white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px #525252;
+}
+
+.learnmore:hover {
+  animation: learnmore-hover 0.2s forwards;
+}
+
 @keyframes qubHover {
-    from {
-      color: white;
-    }
-    to {
-      color: red;
-    }
+  from {
+    color: white;
   }
-  
-  @-webkit-keyframes fancy-background {
-    0% {
-      background-position: 0% 46%;
-    }
-    50% {
-      background-position: 100% 55%;
-    }
-    100% {
-      background-position: 0% 46%;
-    }
+  to {
+    color: red;
   }
-  @-moz-keyframes fancy-background {
-    0% {
-      background-position: 0% 46%;
-    }
-    50% {
-      background-position: 100% 55%;
-    }
-    100% {
-      background-position: 0% 46%;
-    }
+}
+
+@-webkit-keyframes fancy-background {
+  0% {
+    background-position: 0% 46%;
   }
-  @keyframes fancy-background {
-    0% {
-      background-position: 0% 46%;
-    }
-    50% {
-      background-position: 100% 55%;
-    }
-    100% {
-      background-position: 0% 46%;
-    }
+  50% {
+    background-position: 100% 55%;
   }
-  
-  @media only screen and (max-width: 768px) {
-    .landingContent h1 {
-      font-size: large;
-    }
-    .metal {
-      -webkit-animation: fancy-background 20s ease infinite;
-      -moz-animation: fancy-background 20s ease infinite;
-      animation: fancy-background 20s ease infinite;
-    }
-  
-    .infoContainer h2 {
-      font-size: large;
-    }
-  
-    .infoContainer ul li {
-      font-weight: bold;
-      font-size: x-large;
-      padding-left: 1em;
-      margin-top: 0.5rem;
-    }
-    .techSkill article {
-      max-width: 80%;
-    }
-    .techSkill {
-      padding-left: 0.5em !important;
-    }
+  100% {
+    background-position: 0% 46%;
   }
-  
+}
+@-moz-keyframes fancy-background {
+  0% {
+    background-position: 0% 46%;
+  }
+  50% {
+    background-position: 100% 55%;
+  }
+  100% {
+    background-position: 0% 46%;
+  }
+}
+@keyframes fancy-background {
+  0% {
+    background-position: 0% 46%;
+  }
+  50% {
+    background-position: 100% 55%;
+  }
+  100% {
+    background-position: 0% 46%;
+  }
+}
+
+@keyframes learnmore-hover {
+  from {
+    background-color: white;
+    box-shadow: 1px 1px 1px #525252;
+  }
+  to {
+    
+    background-color: rgb(236, 236, 236);
+    box-shadow: 2px 2px 1px #525252;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .landingContent h1 {
+    font-size: large;
+  }
+  .metal {
+    -webkit-animation: fancy-background 20s ease infinite;
+    -moz-animation: fancy-background 20s ease infinite;
+    animation: fancy-background 20s ease infinite;
+  }
+
+  .infoContainer h2 {
+    font-size: large;
+  }
+
+  .infoContainer ul li {
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 1em;
+    margin-top: 0.5rem;
+  }
+  .techSkill article {
+    max-width: 80%;
+  }
+  .techSkill {
+    padding-left: 0.5em !important;
+  }
+}

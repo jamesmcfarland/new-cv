@@ -13,3 +13,13 @@
   margin-left: 1em;
 }
 
+@media only screen and (max-width: 768px) {
+  .aboutContainer {
+   padding: 1rem 0.5rem;
+  }
+
+  .infoContainer {
+    margin-bottom: 5em;
+  }
+
+}

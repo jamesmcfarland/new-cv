@@ -16,7 +16,7 @@ export default function Home() {
 
       <div>
         <Landing />
-        <div className={styles.aboutContainer}>
+        <div className={styles.aboutContainer} id="more">
           <div className={styles.infoContainer}>
             <Passions />
           </div>
