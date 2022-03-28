@@ -41,7 +41,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0d324d" />
           <meta name="msapplication-TileColor" content="#00aba9" />
-          <meta name="theme-color" content="#ffffff" />
+          <meta name="theme-color" content="#7f5a83" />
           <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta>
   
         </Head>
