@@ -16,7 +16,11 @@
 
 @media only screen and (max-width: 768px) {
   .skill article {
-    max-width: 80%;
+    max-width: 90%;
+  }
+  .skill header {
+    max-width: 75%;
+    font-size: x-large !important;
   }
   .skill {
     padding-left: 0.5em !important;
